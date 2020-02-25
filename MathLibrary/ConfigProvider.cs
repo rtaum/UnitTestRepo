@@ -2,9 +2,9 @@
 
 namespace MathLibrary
 {
-    public class ConfigProvider
+    public class ConfigProvider : IConfigProvider
     {
         // let's imagine it takes a data from an external source, e.g. database
-        public double Pi => Math.PI;
+        public double Pi => throw new NotImplementedException();
     }
 }

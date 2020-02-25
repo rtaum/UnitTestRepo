@@ -2,9 +2,9 @@
 {
     public class Circle
     {
-        private readonly ConfigProvider _provider;
+        private readonly IConfigProvider _provider;
 
-        public Circle(ConfigProvider provider)
+        public Circle(IConfigProvider provider)
         {
             _provider = provider;
         }
